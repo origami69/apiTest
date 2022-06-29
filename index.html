@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApiTest</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <body>
+
+        <div class="container"></div>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="bruh.jpeg" style="width:100%">
+                <div class="text">UMP45 and UMP40</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="explosion-girls-with-guns-black-stockings-long-hair-wallpaper-preview.jpg" style="width:100%">
+                <div class="text">Team 404</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="video-game-girls-frontline-g11-girls-frontline-hk416-girls-frontline-wallpaper-preview.jpg" style="width:100%">
+                <div class="text">Team 404</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <div class="info">
+            <form action="" id="former">
+                <fieldset id="bruhss">
+                    <legend>Sign up for local weather report</legend>
+                    <label for="email">Email<span style="color: red !important; display: inline; float: none;">*</span></label>
+                    <input type="email" id="email" size="30" required>
+                    <label for="username">Username<span style="color: red !important; display: inline; float: none;">*</span></label>
+                    <input type='text' id="username" minlength="3" required>
+                    <label for="password">Password<span style="color: red !important; display: inline; float: none;">*</span></label>
+                    <input type="password" id="password" required>
+                    <label for="confirm">Confirm Password<span style="color: red !important; display: inline; float: none;">*</span></label>
+                    <input type="password" id="confirm" required>
+                    <input type="button" value="Submit" id="submitter">
+                </fieldset>
+
+            </form>
+        </div>
+        <div class="containTheAPI">
+            <ul class="weatherAPIS">
+            </ul>
+            <p>Type and enter to generate a random gif</p>
+            <div class="randomGiffer">
+                <input type="text" id="searchGif">
+                <input type="submit" id="gifSubmit" value="submit gif">
+            </div>
+            <img class="randomGif" src="">
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
