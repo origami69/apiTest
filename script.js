@@ -6,7 +6,7 @@ function examppljs() {
     menuBtn.className = 'dropBtn'
     let dropContent = document.createElement('div')
     dropContent.className = 'drop'
-    dropContent.innerHTML += '<a class="dropper" href="https://www.pizzahut.com/index.php?menu=pizza#/menu/pizza">' + 'Pizza' + '</a>' + '<a class="dropper" href="https://www.pizzahut.com/index.php?menu=sides#/menu/Dips">' + 'Dips' + '</a>\n'
+    dropContent.innerHTML += '<a class="dropper" href="https://gf.sunborngame.com/">' + 'GFL' + '</a>' + '<a class="dropper" href="https://www.reddit.com/r/girlsfrontline/">' + 'GFL Extra' + '</a>\n'
     leftSide = document.querySelector('.container')
     menu.appendChild(menuBtn)
     menu.appendChild(dropContent)
